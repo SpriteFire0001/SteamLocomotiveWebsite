@@ -1,0 +1,149 @@
+body
+{
+  background-color: green;
+}
+
+nav
+{
+  position:relative;
+  font-size: 25px;
+  background-color:yellow;
+  display:inline-block;
+  font-family: Arial;
+}
+
+p
+{
+  font-size: 25px;
+  font-family: Arial;
+  background-color:yellow;
+  position:relative;
+  color: black;
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-size: 25px;
+  font-family: Arial;
+  background-color:yellow;
+  position:relative;
+}
+
+il
+{
+  font-size: 25px;
+  font-family: Arial;
+  background-color:yellow;
+  color:black;
+}
+
+ul
+{
+  display:block;
+}
+
+.AnswerText
+{
+  font-size: 37.5px;
+  text-align:left;
+}
+
+input
+{
+  position:relative;
+}
+
+#QuizGame
+{
+  font-family: Arial;
+  position:relative;
+  font-size:50px;
+  background-color:yellow;
+}
+
+.CreditsText
+{
+  position:relative;
+  background-color:yellow;
+  font-size:37.5px;
+  font-family: Arial;
+  text-align: center;
+  padding:16.88px;
+}
+
+img
+{
+  position:relative;
+  width: 75%;
+}
+
+input
+{
+  position:relative;
+}
+
+.Footer
+{
+  background-color:yellow;
+  font-size:37.5px;
+  font-family: Arial;
+}
+
+.info
+{
+  background-color:yellow;
+  padding:8.44px;
+}
+
+.QuizPreface
+{
+  background-color:yellow;
+}
+
+.IndexImg
+{
+  border-radius: 100% 100% 100% 100%;
+  border-style: solid;
+  border-color:yellow;
+  border-width:thick;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+a
+{
+  text-decoration:none;
+  position:relative;
+  padding: 1.25px;
+  color:black;
+}
+
+.hover:hover
+{
+  background-color: black;
+  color:white;
+}
+
+.Home
+{
+  width: 25%;
+}
+
+.QuestionImg
+{
+  width: 37.5%;
+}
+
+.Year
+{
+  text-align:center;
+}
+
+.LocoSelect
+{
+  text-align:center;
+}
+
+

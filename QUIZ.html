@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+<title>Quiz</title>
+</head>  
+<body>
+<a href = "index.html"><img src = "HOME_ICON.png" height = "50%" class = "Home"></a>
+<br>
+<br>
+<br>
+<div class = QuizPreface>
+<h1>Railway Quiz</h1>
+<h3>Do you have the railway knowledge of the Rev. W. Awdry or O. S. Nock? Then try this quiz!</h3>  
+</div>
+<script src="script.js"></script>
+
+<form name = "Quiz" id = "QuizGame">
+
+<h1>Question 1</h1>
+<h2>Which locomotive won the Rainhill Trials of 1829 CE?</h2>
+<input type = "radio" name = "RQ1" value = "Q1A1"><img src = "ROCKET_1.jpg" class = "QuestionImg"><p class = "AnswerText">Stephenson's Rocket</p>
+<br>
+<input type = "radio" name = "RQ1" value = "Q1A2"><img src = "CITY_OF_TRURO_1.jpg" class = "QuestionImg"><p class = "AnswerText">City of Truro</p>
+<br>
+<input type = "radio" name = "RQ1" value = "Q1A3"><img src = "MALLARD_2.jpg" class = "QuestionImg"><p class = "AnswerText">Mallard</p>
+<br>
+<h1>Question 2</h1>
+<h2>Which railway was founded by Isambard Kingdom Brunel?</h2>
+<input type = "radio" name = "RQ2" value = "Q2A1">London, Midland and Scottish Railway (LMS)
+<br>
+<br>
+<input type = "radio" name = "RQ2" value = "Q2A2">The Great Western Railway (GWR)
+<br>
+<br>
+<input type = "radio" name = "RQ2" value = "Q2A3">London North Eastern Railway (LNER)
+<br>
+<br>
+<h1>Question 3</h1>
+<h2>Known for writing his stories in The Railway Series (most of which would be later adapted to television), which heritage railway did the Rev. W. Awdry famously volunteer on?</h2>
+<input type = "radio" name = "RQ3" value = "Q3A1">The North Yorkshire Moors Railway
+<br>
+<br>
+<input type = "radio" name = "RQ3" value = "Q3A2">The Talyllyn Railway
+<br>
+<br>
+<input type = "radio" name = "RQ3" value = "Q3A3">The Bluebell Railway
+<br>
+<br>
+<h1>Question 4</h1>
+<h2>Which steam locomotive portrayed the steam locomotive that hauled the Hogwarts Express train in the cinematic adaptations of Harry Potter?</h2>
+<input type = "radio" name = "RQ4" value = "Q4A1"><img src = "OLTON_HALL_3.jpg" class = "QuestionImg">Olton Hall
+<br>
+<br>
+<input type = "radio" name = "RQ4" value = "Q4A2"><img src = "BLACK_5_1.jpg" class = "QuestionImg">Black 5
+<br>
+<input type = "radio" name = "RQ4" value = "Q4A3"><img src = "STIRLING_SINGLE_1.jpg" class = "QuestionImg">Stirling Single
+<br>
+<br>
+<h1>Question 5</h1>
+<h2>What year was York’s National Railway Museum was founded?</h2>
+<input type = "number" id = "Q5" name = "NQ5" min = 1900 max = 2000 step = 5 value = 1900>
+<br>
+<br>
+<h1>Question 6</h1>
+<h2>What is the current number of the Flying Scotsman Locomotive?</h2>
+<input type = "radio" name = "RQ6" value = "Q6A1">1472
+<br>
+<br>
+<input type = "radio" name = "RQ6" value = "Q6A2">4472
+<br>
+<br>
+<input type = "radio" name = "RQ6" value = "Q6A3">60103
+<br>
+<br>
+<h1>Question 7</h1>
+<h2>Which of these locomotives was not made by LNER Engineer, Sir Herbet Nigel Gresley?</h2>
+<input type = "radio" name = "RQ7" value = "Q7A1"><img src = "GWR_5700_CLASS_2.jpg" class = "QuestionImg">GWR 5700 Class
+<br>
+<br>
+<input type = "radio" name = "RQ7" value = "Q7A2"><img src = "FLYING_SCOTSMAN_1.jpg" class = "QuestionImg">Flying Scotsman
+<br>
+<br>
+<input type = "radio" name = "RQ7" value = "Q7A3"><img src = "MALLARD_1.jpg" class = "QuestionImg">Mallard
+<br>
+<br>
+<h1>Question 8</h1>
+<h2>Which is larger? Broad Gauge or Narrow Gauge?</h2>
+<input type = "radio" name = "RQ8" value = "Q8A1">Broad Gauge
+<br>
+<br>
+<input type = "radio" name = "RQ8" value = "Q8A2">Narrow Gauge
+<br>
+<br>
+<button onclick = "CheckAnswers()">Submit Answers</button>
+
+</form>
+
+</body>
+
+</html>
